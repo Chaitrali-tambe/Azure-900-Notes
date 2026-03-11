@@ -7,4 +7,4 @@ This consumption-based model has many benefits, including:
 ▪ No upfront costs.
 ▪ No need to purchase and manage costly infrastructure that users might not use to its fullest potential.
 ▪ The ability to pay for more resources when they're needed.
-▪ The ability to stop paying for resources that are no longer needed.
+▪ The ability to stop paying for resources that are no longer needed. 
