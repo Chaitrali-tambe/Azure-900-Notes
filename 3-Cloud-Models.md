@@ -26,3 +26,13 @@ Cloud Models ---|---- Private Cloud (On-Prem/Azure Stack)
   ▫ Pros: Better security than public, cheaper than private, collaborative.
   ▫ Cons: Limited customization, shared responsibility.
   ▫ Example: A consortium of hospitals using a shared, compliant Azure environment for sharing medical imaging data.
+
+
+:::: Additional Concept ::::
+► Multi Cloud:
+  Multicloud is the strategic use of services from two or more public cloud providers (e.g., Azure + AWS) to run applications, optimize performance, and avoid vendor lock-in.
+  ▫ Pros: Flexibility to switch providers, minimizes downtime if one provider fails, leveraging the cheapest provider for specific tasks.
+  ▫ Cons:  Requires specialized cross-platform expertise, harder to manage, monitor, and secure multiple platforms.
+  ▫ Example: A company uses Azure Cosmos DB for global, low-latency database needs, while simultaneously using AWS S3 for long-term data archiving. They might manage both using Azure Arc, which brings Azure’s security and governance to AWS resources. 
+
+Key Azure Tool: Azure Arc is commonly used to manage servers, apps, and Kubernetes clusters across Azure, AWS, and on-premises, enabling a unified multicloud control plane.
