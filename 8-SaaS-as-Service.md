@@ -2,15 +2,15 @@
 
 																	                                      SaaS  
 	Responsibility             |--	Information and data                    ◼   
-	Always retained          --|	  Devices (mobiles & PCs)                 ◼   
-	by customer		             |	  Accounts and Identities                 ◼   
-					                   |--	Identity and directory infrastructure   ◩   
-	Responsibility             |	  Applications                            ☐   
-	varies by type           --|	  Network Controls                        ☐   
-					                   |--	Operating System                        ☐   
-	Responsibility transfers   |	  Physical hosts                          ☐   
-	to cloud providers		     |	  Physical network                        ☐   
-							               |--	Physical Datacenter                     ☐   
+	Always retained          --|	Devices (mobiles & PCs)                 ◼   
+	by customer		           |	Accounts and Identities                 ◼   
+					           |--	Identity and directory infrastructure   ◩   
+	Responsibility             |	Applications                            ☐   
+	varies by type           --|	Network Controls                        ☐   
+					           |--	Operating System                        ☐   
+	Responsibility transfers   |	Physical hosts                          ☐   
+	to cloud providers		 --|	Physical network                        ☐   
+							   |--	Physical Datacenter                     ☐   
 
 
 SaaS delivers fully functional software applications over the internet on a subscription basis. 
