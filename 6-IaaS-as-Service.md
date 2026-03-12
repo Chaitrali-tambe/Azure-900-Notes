@@ -1,16 +1,16 @@
 ::::::: Infrastructure as a Service (IaaS) in Azure :::::::
 
-																      PaaS 
+																      IaaS 
 Responsibility             |--	Information and data                    ◼        		 
 Always retained          --|    Devices (mobiles & PCs)                 ◼        
 by customer		           |	Accounts and Identities                 ◼       		    
-				           |--	Identity and directory infrastructure   ◩       		   
-Responsibility             |	Applications                            ◩       		   
-varies by type           --|	Network Controls                        ◩       		   
-				           |--	Operating System                        ☐       		    
+				           |--	Identity and directory infrastructure   ◼       		   
+Responsibility             |	Applications                            ◼       		   
+varies by type           --|	Network Controls                        ◼       		   
+				           |--	Operating System                        ◼       		    
 Responsibility transfers   |	Physical hosts                          ☐       		   
 to cloud providers		   |	Physical network                        ☐       
-						   |--	Physical Datacenter
+						   |--	Physical Datacenter                     ☐
 
 IaaS provides on-demand access to fundamental computing resources like virtual machines (VMs), storage, and networking, serving as a virtualized version of a traditional datacenter.
 ▫ How it Works: You rent infrastructure from Azure. You are responsible for managing the operating system, middleware, runtime, applications, and data.
