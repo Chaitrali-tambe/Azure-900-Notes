@@ -1,16 +1,16 @@
 ::::::: Platform as a Service (PaaS) in Azure :::::::
 
-																	                                      PaaS 
+																	      PaaS 
 	Responsibility             |--	Information and data                    ◼        		 
-	Always retained          --|	  Devices (mobiles & PCs)                 ◼        
-	by customer		             |	  Accounts and Identities                 ◼       		    
-					                   |--	Identity and directory infrastructure   ◩       		   
-	Responsibility             |	  Applications                            ◩       		   
-	varies by type           --|	  Network Controls                        ◩       		   
-					                   |--	Operating System                        ☐       		    
-	Responsibility transfers   |	  Physical hosts                          ☐       		   
-	to cloud providers		     |	  Physical network                        ☐       
-							               |--	Physical Datacenter                     ☐       
+	Always retained          --|    Devices (mobiles & PCs)                 ◼        
+	by customer		           |	Accounts and Identities                 ◼       		    
+					           |--	Identity and directory infrastructure   ◩       		   
+	Responsibility             |	Applications                            ◩       		   
+	varies by type           --|	Network Controls                        ◩       		   
+					           |--	Operating System                        ☐       		    
+	Responsibility transfers   |	Physical hosts                          ☐       		   
+	to cloud providers		   |	Physical network                        ☐       
+							   |--	Physical Datacenter                     ☐       
 
 
 PaaS provides a framework for developers to build, test, and deploy applications without worrying about underlying infrastructure management.
